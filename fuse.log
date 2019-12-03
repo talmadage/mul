@@ -1,0 +1,45 @@
+Running: C:\Xilinx3\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o X:/m_final/cpu_tb_isim_beh.exe -prj X:/m_final/cpu_tb_beh.prj cpu_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "X:/m_final/shifter.v" into library work
+Analyzing Verilog file "X:/m_final/forwarder.v" into library work
+Analyzing Verilog file "X:/m_final/decoder.v" into library work
+Analyzing Verilog file "X:/m_final/alu32.v" into library work
+Analyzing Verilog file "X:/m_final/stage4.v" into library work
+Analyzing Verilog file "X:/m_final/stage3.v" into library work
+Analyzing Verilog file "X:/m_final/stage2.v" into library work
+Analyzing Verilog file "X:/m_final/stage1.v" into library work
+Analyzing Verilog file "X:/m_final/registerFile.v" into library work
+Analyzing Verilog file "X:/m_final/IMEM.v" into library work
+Analyzing Verilog file "X:/m_final/dmem.v" into library work
+Analyzing Verilog file "X:/m_final/CPU3.v" into library work
+Analyzing Verilog file "X:/m_final/arbiter.v" into library work
+Analyzing Verilog file "X:/m_final/accumulator.v" into library work
+Analyzing Verilog file "X:/m_final/cpu_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx3/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module stage1
+Compiling module Decoder
+Compiling module stage2
+Compiling module RF
+Compiling module ALU32
+Compiling module forwarder
+Compiling module stage3
+Compiling module shifter
+Compiling module stage4
+Compiling module CPU
+Compiling module imem
+Compiling module arbiter
+Compiling module dmem
+Compiling module accumulator
+Compiling module cpu_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 16 Verilog Units
+Built simulation executable X:/m_final/cpu_tb_isim_beh.exe
+Fuse Memory Usage: 27940 KB
+Fuse CPU Usage: 452 ms
